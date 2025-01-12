@@ -1,7 +1,64 @@
 {
   "meta": {
-    "tile": "List of animals",
-    "date": "September 2024"
+    "title": "Goals"
   },
-  "animals" : ["dog", "cat", "elephant", "lion"]
+  "goals": [
+    {
+      "id": 1,
+      "omschrijving": "Douche 3x met de timer",
+      "beloning": 150,
+      "deadline": "",
+      "type": "User App",
+      "goal": 3,
+      "claimed": false
+    },
+    {
+      "id": 2,
+      "omschrijving": "Douche 10x met de timer",
+      "beloning": 500,
+      "deadline": "",
+      "type": "User App",
+      "goal": 10,
+      "claimed": false
+    }
+  ],
+  "userGoals": [
+    {
+      "GoalId": 1,
+      "userId": 1,
+      "Progress": 3
+    },
+    {
+      "GoalId": 2,
+      "userId": 1,
+      "Progress": 3
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Jesse Lokerse",
+      "coins": 0
+    }
+  ],
+  "personalGoals": [
+    {
+      "id": "1",
+      "omschrijving": "Douche 10x met de timer",
+      "type": "User App",
+      "goal": 10,
+      "userId": 1,
+      "claimed": false,
+      "progress": 0
+    },
+    {
+      "id": "4",
+      "omschrijving": "afasd",
+      "type": "time",
+      "goal": 3,
+      "userId": 1,
+      "claimed": false,
+      "progress": 0
+    }
+  ]
 }
